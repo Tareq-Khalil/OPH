@@ -26,3 +26,7 @@ FIRST Download
 
 MORE instruction to use are demonstrated in this video:
 https://drive.google.com/file/d/1lkf2St0JlyicZCIkYG_LE6NFFhvV6aB0/view?usp=drivesdk
+
+my contact info:
+tareqkhalil1415@gmail.com
++201147343850
