@@ -24,5 +24,5 @@ FIRST Download
 9.Run the script http://localhost/oph
 
 
-
-
+MORE instruction to use are demonstrated in this video:
+https://drive.google.com/file/d/1lkf2St0JlyicZCIkYG_LE6NFFhvV6aB0/view?usp=drivesdk
