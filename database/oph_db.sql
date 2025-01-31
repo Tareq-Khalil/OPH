@@ -2,20 +2,10 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Oct 30, 2021 at 03:32 AM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `oph_db`
@@ -41,11 +31,11 @@ CREATE TABLE `company_list` (
 --
 
 INSERT INTO `company_list` (`id`, `name`, `description`, `status`, `date_created`, `date_updated`) VALUES
-(1, 'Electric Provider Corp.', 'This is a sample Electric Provider Company', 1, '2021-10-29 09:58:11', '2021-10-29 11:37:10'),
-(2, 'Water Provider Corp.', 'This is a sample Water Provider Company', 1, '2021-10-29 09:59:05', '2021-10-29 11:37:10'),
-(3, 'Telecom Corp.', 'This is a sample Telecom/Internet Provider Company', 1, '2021-10-29 09:59:46', '2021-10-29 11:37:10'),
-(4, 'Financing Corp', 'This is sample Financing Company', 1, '2021-10-29 10:00:21', '2021-10-29 11:37:10'),
-(5, 'Lending Corp', 'This is a sample Lending Company', 1, '2021-10-29 10:00:48', '2021-10-29 11:37:10');
+(1, 'Electric Provider Corp.', 'This is a sample Electric Provider Company', 1, '2025-1-29 09:58:11', '2025-1-29 11:37:10'),
+(2, 'Water Provider Corp.', 'This is a sample Water Provider Company', 1, '2025-1-29 09:59:05', '2025-1-29 11:37:10'),
+(3, 'Telecom Corp.', 'This is a sample Telecom/Internet Provider Company', 1, '2025-1-29 09:59:46', '2025-1-29 11:37:10'),
+(4, 'Financing Corp', 'This is sample Financing Company', 1, '2025-1-29 10:00:21', '2025-1-29 11:37:10'),
+(5, 'Lending Corp', 'This is a sample Lending Company', 1, '2025-1-29 10:00:48', '2025-1-29 11:37:10');
 
 -- --------------------------------------------------------
 
@@ -66,10 +56,10 @@ CREATE TABLE `fee_list` (
 --
 
 INSERT INTO `fee_list` (`id`, `amount_from`, `amount_to`, `fee`, `date_created`) VALUES
-(1, 0.01, 5000, 15, '2021-10-29 10:05:56'),
-(2, 5001, 10000, 25, '2021-10-29 10:06:34'),
-(3, 10001, 25000, 35, '2021-10-29 10:06:56'),
-(4, 25001, 1000000000000, 50, '2021-10-29 10:07:16');
+(1, 0.01, 5000, 15, '2025-1-29 10:05:56'),
+(2, 5001, 10000, 25, '2025-1-29 10:06:34'),
+(3, 10001, 25000, 35, '2025-1-29 10:06:56'),
+(4, 25001, 1000000000000, 50, '2025-1-29 10:07:16');
 
 -- --------------------------------------------------------
 
@@ -121,8 +111,8 @@ CREATE TABLE `transaction_list` (
 --
 
 INSERT INTO `transaction_list` (`id`, `tracking_code`, `company_id`, `account_name`, `account_number`, `amount_to_pay`, `payable_amount`, `fee`, `payment_code`, `user_id`, `date_created`, `date_updated`) VALUES
-(1, 'NCK-314576340959', 3, 'John Smith', '123565465', 2500, 2515, 15, 'PAYID-MF53XEA05046959889420436', 2, '2021-10-29 17:15:32', '2021-10-29 17:35:14'),
-(2, 'UHK-317568108296', 5, 'John Smith', '1234567899', 4500, 4515, 15, 'PAYID-MF6KAUA5YV50836FG238135L', 2, '2021-10-30 09:31:08', NULL);
+(1, 'NCK-314576340959', 3, 'John Smith', '123565465', 2500, 2515, 15, 'PAYID-MF53XEA05046959889420436', 2, '2025-1-29 17:15:32', '2025-1-29 17:35:14'),
+(2, 'UHK-317568108296', 5, 'John Smith', '1234567899', 4500, 4515, 15, 'PAYID-MF6KAUA5YV50836FG238135L', 2, '2025-1-30 09:31:08', NULL);
 
 -- --------------------------------------------------------
 
@@ -162,10 +152,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `middlename`, `lastname`, `username`, `password`, `avatar`, `last_login`, `type`, `date_added`, `date_updated`) VALUES
-(1, 'Adminstrator', NULL, 'Admin', 'admin', '0192023a7bbd73250516f069df18b500', 'uploads/avatar-1.png?v=1635556826', NULL, 1, '2021-01-20 14:02:37', '2021-10-30 09:20:26'),
-(2, 'Johnny', 'D', 'Smith', 'jsmith@sample.com', '1254737c076cf867dc53d60a0364f38e', 'uploads/avatar-2.png?v=1635490031', NULL, 2, '2021-10-29 14:47:11', '2021-10-29 16:12:41'),
-(3, 'Claire', 'D', 'Blake', 'cblake@sample.com', '4744ddea876b11dcb1d169fadf494418', 'uploads/avatar-3.png?v=1635490172', NULL, 2, '2021-10-29 14:49:32', '2021-10-29 14:58:34'),
-(4, 'Claire', NULL, 'Blake', 'cblake', 'cd74fae0a3adf459f73bbf187607ccea', 'uploads/avatar-4.png?v=1635555357', NULL, 1, '2021-10-30 08:55:57', '2021-10-30 08:55:57');
+(1, 'Adminstrator', NULL, 'Admin', 'admin', '0192023a7bbd73250516f069df18b500', 'uploads/avatar-1.png?v=1635556826', NULL, 1, '2025-01-20 14:02:37', '2025-1-30 09:20:26'),
+(2, 'Johnny', 'D', 'Smith', 'jsmith@sample.com', '1254737c076cf867dc53d60a0364f38e', 'uploads/avatar-2.png?v=1635490031', NULL, 2, '2025-1-29 14:47:11', '2025-1-29 16:12:41'),
+(3, 'Claire', 'D', 'Blake', 'cblake@sample.com', '4744ddea876b11dcb1d169fadf494418', 'uploads/avatar-3.png?v=1635490172', NULL, 2, '2025-1-29 14:49:32', '2025-1-29 14:58:34'),
+(4, 'Claire', NULL, 'Blake', 'cblake', 'cd74fae0a3adf459f73bbf187607ccea', 'uploads/avatar-4.png?v=1635555357', NULL, 1, '2025-1-30 08:55:57', '2025-1-30 08:55:57');
 
 -- --------------------------------------------------------
 
@@ -185,20 +175,20 @@ CREATE TABLE `user_meta` (
 --
 
 INSERT INTO `user_meta` (`user_id`, `meta_field`, `meta_value`, `date_created`) VALUES
-(2, 'dob', '1997-06-23', '2021-10-29 14:47:11'),
-(2, 'contact', '09123456789', '2021-10-29 14:47:11'),
-(2, 'address', 'Sample Address', '2021-10-29 14:47:11'),
-(3, 'dob', '1997-10-14', '2021-10-29 14:49:32'),
-(3, 'contact', '097894561335', '2021-10-29 14:49:32'),
-(3, 'address', 'Sample Address', '2021-10-29 14:49:32'),
-(2, 'gender', 'Male', '2021-10-29 16:11:52'),
-(2, 'dob', '1997-06-23', '2021-10-29 16:11:52'),
-(2, 'contact', '09123456789', '2021-10-29 16:11:52'),
-(2, 'address', 'Sample Address', '2021-10-29 16:11:52'),
-(2, 'gender', 'Male', '2021-10-29 16:12:41'),
-(2, 'dob', '1997-06-23', '2021-10-29 16:12:41'),
-(2, 'contact', '09123456789', '2021-10-29 16:12:41'),
-(2, 'address', 'Sample Address', '2021-10-29 16:12:41');
+(2, 'dob', '2001-06-23', '2025-1-29 14:47:11'),
+(2, 'contact', '09123456789', '2025-1-29 14:47:11'),
+(2, 'address', 'Sample Address', '2025-1-29 14:47:11'),
+(3, 'dob', '2001-10-14', '2025-1-29 14:49:32'),
+(3, 'contact', '097894561335', '2025-1-29 14:49:32'),
+(3, 'address', 'Sample Address', '2025-1-29 14:49:32'),
+(2, 'gender', 'Male', '2025-1-29 16:11:52'),
+(2, 'dob', '1997-06-23', '2025-1-29 16:11:52'),
+(2, 'contact', '09123456789', '2025-1-29 16:11:52'),
+(2, 'address', 'Sample Address', '2025-1-29 16:11:52'),
+(2, 'gender', 'Male', '2025-1-29 16:12:41'),
+(2, 'dob', '1997-06-23', '2025-1-29 16:12:41'),
+(2, 'contact', '09123456789', '2025-1-29 16:12:41'),
+(2, 'address', 'Sample Address', '2025-1-29 16:12:41');
 
 --
 -- Indexes for dumped tables
@@ -298,6 +288,4 @@ ALTER TABLE `transaction_meta`
   ADD CONSTRAINT `transaction_meta_ibfk_1` FOREIGN KEY (`transaction_id`) REFERENCES `transaction_list` (`id`) ON DELETE CASCADE;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
