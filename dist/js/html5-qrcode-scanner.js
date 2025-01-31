@@ -1,16 +1,3 @@
-/**
- * @fileoverview
- * Complete Scanner build on top of {@link Html5Qrcode}.
- * - Decode QR Code using web cam or smartphone camera
- * 
- * @author mebjas <minhazav@gmail.com>
- * 
- * The word "QR Code" is registered trademark of DENSO WAVE INCORPORATED
- * http://www.denso-wave.com/qrcode/faqpatent-e.html
- * 
- * Note: ECMA Script is not supported by all browsers. Use minified/html5-qrcode.min.js for better
- * browser support. Alternatively the transpiled code lives in transpiled/html5-qrcode.js
- */
 class Html5QrcodeScanner {
 
     static SCAN_TYPE_CAMERA = "SCAN_TYPE_CAMERA";
@@ -19,8 +6,6 @@ class Html5QrcodeScanner {
     static STATUS_WARNING = "STATUS_WARNING";
     static STATUS_DEFAULT = "STATUS_DEFAULT";
 
-    // static ASSET_FILE_SCAN = "https://raw.githubusercontent.com/mebjas/html5-qrcode/master/assets/file-scan.gif";
-    // static ASSET_CAMERA_SCAN = "https://raw.githubusercontent.com/mebjas/html5-qrcode/master/assets/camera-scan.gif";
     static ASSET_FILE_SCAN = "";
     static ASSET_CAMERA_SCAN = "";
 
@@ -56,11 +41,6 @@ class Html5QrcodeScanner {
      *          Important: When passed this will override other parameters
      *          like 'cameraIdOrConfig' or configurations like 'aspectRatio'.
      *
-     *          videoConstraints should be of type {@code MediaTrackConstraints}
-     *          as defined in
-     *          https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackConstraints
-     *          and is used to specify a variety of video or camera controls
-     *          like: aspectRatio, facingMode, frameRate, etc.
      * @param {Boolean} verbose - Optional argument, if true, all logs
      *                  would be printed to console. 
      */
