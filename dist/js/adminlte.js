@@ -1,8 +1,3 @@
-/*!
- * AdminLTE v3.1.0-rc (https://adminlte.io)
- * Copyright 2014-2020 Colorlib <https://colorlib.com>
- * Licensed under MIT (https://github.com/ColorlibHQ/AdminLTE/blob/master/LICENSE)
- */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery')) :
   typeof define === 'function' && define.amd ? define(['exports', 'jquery'], factory) :
@@ -13,16 +8,7 @@
 
   var $__default = /*#__PURE__*/_interopDefaultLegacy($);
 
-  /**
-   * --------------------------------------------
-   * AdminLTE CardRefresh.js
-   * License MIT
-   * --------------------------------------------
-   */
-  /**
-   * Constants
-   * ====================================================
-   */
+  
 
   var NAME = 'CardRefresh';
   var DATA_KEY = 'lte.cardrefresh';
@@ -167,12 +153,7 @@
     return CardRefresh._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE CardWidget.js
-   * License MIT
-   * --------------------------------------------
-   */
+  
   /**
    * Constants
    * ====================================================
@@ -393,12 +374,7 @@
     return CardWidget._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE ControlSidebar.js
-   * License MIT
-   * --------------------------------------------
-   */
+  
   /**
    * Constants
    * ====================================================
@@ -740,12 +716,7 @@
     return DirectChat._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE Dropdown.js
-   * License MIT
-   * --------------------------------------------
-   */
+  
   /**
    * Constants
    * ====================================================
@@ -880,12 +851,7 @@
     return Dropdown._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE ExpandableTable.js
-   * License MIT
-   * --------------------------------------------
-   */
+  
   /**
     * Constants
     * ====================================================
@@ -992,12 +958,7 @@
     return ExpandableTable._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE Fullscreen.js
-   * License MIT
-   * --------------------------------------------
-   */
+
   /**
    * Constants
    * ====================================================
@@ -1102,12 +1063,7 @@
     return Fullscreen._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE IFrame.js
-   * License MIT
-   * --------------------------------------------
-   */
+
   /**
    * Constants
    * ====================================================
@@ -1483,12 +1439,7 @@
     return IFrame._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE Layout.js
-   * License MIT
-   * --------------------------------------------
-   */
+
   /**
    * Constants
    * ====================================================
@@ -1723,12 +1674,7 @@
     return Layout._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE PushMenu.js
-   * License MIT
-   * --------------------------------------------
-   */
+ 
   /**
    * Constants
    * ====================================================
@@ -1946,12 +1892,7 @@
     return PushMenu._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE SidebarSearch.js
-   * License MIT
-   * --------------------------------------------
-   */
+ 
   /**
    * Constants
    * ====================================================
@@ -2231,12 +2172,7 @@
     return SidebarSearch._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE Toasts.js
-   * License MIT
-   * --------------------------------------------
-   */
+  
   /**
    * Constants
    * ====================================================
@@ -2433,12 +2369,7 @@
     return Toasts._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE TodoList.js
-   * License MIT
-   * --------------------------------------------
-   */
+
   /**
    * Constants
    * ====================================================
@@ -2547,12 +2478,7 @@
     return TodoList._jQueryInterface;
   };
 
-  /**
-   * --------------------------------------------
-   * AdminLTE Treeview.js
-   * License MIT
-   * --------------------------------------------
-   */
+
   /**
    * Constants
    * ====================================================
