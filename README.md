@@ -28,7 +28,7 @@ The **Online Payment Hub** is a secure and efficient platform that facilitates e
 - Use a text editor like **Notepad++** or **Sublime Text**.
 
 ### Step 2: Setup Project Files
-- Download the project ZIP file.(It is in a zip file because of the size and amount of the files and to easily put on Github)
+- Download the project ZIP file.(download this folder also and put it with them: https://drive.google.com/drive/folders/1eezp9oAIKDqlN-dPSHaJeuG3zNfUXnOU?usp=sharing)
 - Extract the files using **WinRAR** or any extraction tool.
 - Copy the **oph** folder.
 - Paste it inside the **root directory** of your local server:
